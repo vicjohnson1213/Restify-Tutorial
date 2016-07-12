@@ -108,6 +108,6 @@ server.del('/friends/:id', function(req, res, next) {
 });
 
 // Start the new server.
-server.listen(9090, function() {
+server.listen(8080, function() {
   console.log('%s listening at %s', server.name, server.url);
 });
